@@ -2,7 +2,13 @@ export default {
   singular: true,
   routes: [{
     path: '/',
-    component: './HelloWorld',
+    component: '../layout/index',
+    routes: [
+      {
+        path: './helloworld',
+        component: './HelloWorld',
+      },
+    ]
   }],
   plugins: [
     ['umi-plugin-react', {

@@ -21,4 +21,9 @@ class LifeCircle extends React.Component {
     componentDidUpdate() {
 
     }
+
+    //不常用
+    // 1. shouldComponentUpdate(nextProps, nextState) 每当this.props或this.stats有变化，在render方法执行之前，就会调用
+    // 2. getDerivedStateFromProps(props, state)
+    // 3. getSnapshotBeforeUpdate()
 }
